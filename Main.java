@@ -85,6 +85,10 @@ public class Main {
         MataKuliah web = new MataKuliah("IF305", "Pemrograman Web", 3);
         MataKuliah strukturData = new MataKuliah("IF201", "Struktur Data", 3);
     }
+    Dosen dosen = new Dosen("Pak Indra", "0712345601");
+    dosen.tambahMataKuliah(pbo);
+    dosen.tambahMataKuliah(web);
+    
 }
     
     
