@@ -38,5 +38,7 @@ class MataKuliah {
         this.nidn = nidn;
         this.mataKuliahDiajar = new ArrayList<>();
     }
-
+    public void tampilkanPeran(){
+        mataKuliahDiajar.add(mataKuliah);
+    }
     }
