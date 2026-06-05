@@ -41,4 +41,11 @@ class MataKuliah {
     public void tampilkanPeran(){
         mataKuliahDiajar.add(mataKuliah);
     }
+    @Override
+    public void tampilkanPeran(){
+        System.out.println(getNama() + "berperan sebagai Dosen.");
+
+    }
+
+    }
     }
