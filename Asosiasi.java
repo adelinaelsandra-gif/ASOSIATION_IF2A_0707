@@ -63,6 +63,8 @@ class MataKuliah {
         this.nim = nim;
         this.mataKuliahDiambil = new ArrayList<>();
     }
-    
+    public void ambilMataKuliah(MataKuliah mataKuliah) {
+        mataKuliahDiambil.add(mataKuliah);
+    }
     }
     {}
