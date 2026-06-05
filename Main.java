@@ -92,6 +92,10 @@ public class Main {
     Mahasiswa mahasiswa = new Mahasiswa("Andi Pratama", "230411001");
     mahasiswa.ambilMataKuliah(pbo);
     mahasiswa.ambilMataKuliah(strukturData);
+
+    System.out.println("===Data Peran===");
+    dosen.tampilkanPeran();
+    mahasiswa.tampilkanPeran();
 }
     
     
