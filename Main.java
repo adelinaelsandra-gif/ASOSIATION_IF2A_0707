@@ -88,7 +88,10 @@ public class Main {
     Dosen dosen = new Dosen("Pak Indra", "0712345601");
     dosen.tambahMataKuliah(pbo);
     dosen.tambahMataKuliah(web);
-    
+
+    Mahasiswa mahasiswa = new Mahasiswa("Andi Pratama", "230411001");
+    mahasiswa.ambilMataKuliah(pbo);
+    mahasiswa.ambilMataKuliah(strukturData);
 }
     
     
