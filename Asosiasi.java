@@ -66,5 +66,10 @@ class MataKuliah {
     public void ambilMataKuliah(MataKuliah mataKuliah) {
         mataKuliahDiambil.add(mataKuliah);
     }
+    @Override
+    public void tampilkanPeran(){
+        System.out.println(getNama() + " berperan sebagai Mahasiswa.");
+    }
+
     }
     {}
