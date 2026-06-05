@@ -29,3 +29,14 @@ class MataKuliah {
         return kode + " - " + nama + " (" + sks + " SKS)";
     }
 }
+    class Dosen extends Orang {
+    private String nidn;
+    private ArrayList<MataKuliah> mataKuliahDiajar;
+
+    public Dosen(String nama, String nidn) {
+        super(nama);
+        this.nidn = nidn;
+        this.mataKuliahDiajar = new ArrayList<>();
+    }
+
+    }
