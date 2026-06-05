@@ -101,6 +101,11 @@ public class Main {
 
     System.out.println("=== Data Dosen ===");
     dosen.tampilkanMataKuliahDiajar();
+
+    System.out.println();
+
+    System.out.println("=== Data Mahasiswa ===");
+    Mahasiswa.tampilkanKrs();
 }
     
     
