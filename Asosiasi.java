@@ -53,6 +53,16 @@ class MataKuliah {
             System.out.println("-" + mk.getInfo());
         }
     }
+}
+    class Mahasiswa extends Orang {
+        private String nim;
+        private ArrayList<MataKuliah> mataKuliahDiambil;
 
+    public Mahasiswa(String nama, String nim) {
+        super(nama);
+        this.nim = nim;
+        this.mataKuliahDiambil = new ArrayList<>();
     }
+    
     }
+    {}
